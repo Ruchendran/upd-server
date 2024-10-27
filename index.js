@@ -38,3 +38,6 @@ index.get("/get",async(request,response)=>{
     console.log("Its active while hittting")
     response.send("data trigggged")
 })
+
+
+module.exports=index
