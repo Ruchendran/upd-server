@@ -35,10 +35,6 @@ initiate=async()=>{
 initiate();
 
 index.get("/get",async(request,response)=>{
-    const que=`
-    select * from lead
-    `;
-    const data=await db.all(que);
-    console.log(data);
-    response.send(data)
+    console.log("Its active while hittting")
+    response.send("data trigggged")
 })
